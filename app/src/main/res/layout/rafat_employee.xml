@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/rafatK_Image"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:background="@drawable/rafat_image"
+         />
+
+    <TextView
+        android:id="@+id/rafatK_textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:text="IT Specialist + Developer"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        />
+
+    <TextView
+        android:id="@+id/rafatK_textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:text="Desktop , Network , Server "
+        />
+
+</LinearLayout>

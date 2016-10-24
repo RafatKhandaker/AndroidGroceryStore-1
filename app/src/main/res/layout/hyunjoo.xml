@@ -12,14 +12,6 @@
     android:background="@color/mycolor"
     >
 
-    <ImageView
-        android:id ="@+id/myface"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        app:srcCompat="@drawable/hyunjoo"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="22dp" />
-
     <TextView
         android:text= "I enjoy watching movies and collecting movie tickets. I also enjoy riding my citizan bike, the one with the small wheels. On my spare time I take it around the city. My favorite color is blue. "
         android:textColor="#dedede"
@@ -77,6 +69,16 @@
         android:layout_below="@+id/text"
         android:layout_alignRight="@+id/text"
         android:layout_alignEnd="@+id/text" />
+
+    <ImageView
+        android:id ="@+id/myface"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/hyunjoo"
+        android:layout_marginTop="22dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 
 </RelativeLayout>

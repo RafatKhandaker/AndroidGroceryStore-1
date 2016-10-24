@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 
 import nyc.c4q.grocerystore.R;
 import nyc.c4q.grocerystore.employeeHandbook.employees.Ashique;
+import nyc.c4q.grocerystore.employeeHandbook.employees.Rafat;
 
 public class EmployeeView extends AppCompatActivity {
     public static final String EMPLOYEE_NAME = "extra.employee.name";
@@ -27,5 +28,13 @@ public class EmployeeView extends AppCompatActivity {
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
         fragmentTransaction.add(R.id.employee_profile,new Ashique());
         fragmentTransaction.commit();
+    }
+
+    private void showRafat(){
+        FragmentManager fragmentManager = getFragmentManager();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+        fragmentTransaction.add(R.id.employee_profile,new Rafat());
+        fragmentTransaction.commit();
+
     }
 }
